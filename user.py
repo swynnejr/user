@@ -60,9 +60,18 @@ maddox = User("Maddox Womble", "MadFox420@WSMFP.com")
 
 guido.make_deposit(100)
 guido.make_deposit(200)
+guido.make_withdrawl(75)
 monty.make_deposit(50)
-# print(guido.account_balance)	# output: 300
-# print(monty.account_balance)	# output: 50
+monty.make_deposit(25)
+monty.make_withdrawl(11)
+monty.make_withdrawl(8)
+travis.make_deposit(100000)
+travis.make_withdrawl(14)
+travis.make_withdrawl(99)
+
+print(guido.account_balance)
+print(monty.account_balance)
+print(travis.account_balance)
 
 #checking display user balance method that doesnt work, but I dont get why it needs to be made when the above works fine...
 
